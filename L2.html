@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Бабій С.В., зпі-зп-11 </title>
+    <meta name="description" content="Lab 2 result">
+    <style>
+    TABLE { width:70%;
+		border-collapse:collapse; }
+     td, th { padding:7px; border:#4e95f4 1px solid;
+         }
+     th {background-color:#028f8f;color:white;}
+     th:hover {background-color:#f5f502; color:blue; }
+     #second {background-color:#f5f502; color:blue; }
+     td:hover {background-color:#028f8f;color:white;}
+
+
+ .plus {
+  --t:2px;   /* Thickness */
+  --l:40px;  /* size of the symbol */
+  --s:30px;  /* space around the symbol */
+  --c1:#fff; /* Plus color*/
+  --c2:#000; /* background color*/
+
+  display:inline-block;
+  width:var(--l);
+  height:var(--l);
+  padding:var(--s);
+  box-sizing:border-box; /*Remove this if you don't want space to be included in the size*/
+
+  background:
+    linear-gradient(var(--c1) 0 0) content-box,
+    linear-gradient(var(--c1) 0 0) content-box,
+    var(--c2);
+  background-position:center;
+  background-size: 100% var(--t),var(--t) 100%;
+  background-repeat:no-repeat;
+}
+    </style>
+</head>
+<body align="center">
+<h1 > Лабораторна робота 2 </h1>
+<h3> Завдання 1:</h3>
+<table align="center">
+      <tbody>
+        <tr>
+          <th rowspan="3"> Бабій </th>
+          <th> Світлана </th>
+          <th rowspan="3"> Володимирівна </th>
+          <th>  </th>
+        </tr>
+        <tr id="second">
+          <td> зпі -зп-11 </td>
+          <td> </td>
+        </tr>
+         <tr>
+           <td>  </td>
+          <td>  </td>
+        </tr>
+        <tr>
+          <td>  </td>
+          <td colspan="2">  </td>
+          <td>  </td>
+        </tr>
+      </tbody>
+    </table>
+<h3 align="center"> Завдання 2:</h3>
+<div class="plus" style="--l:150px;--t:25px;--c2:red"></div>
+</body>
+</html>
